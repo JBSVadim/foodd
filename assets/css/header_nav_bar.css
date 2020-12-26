@@ -1,0 +1,33 @@
+.nav-bar {
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+border-bottom:  1px solid black;
+}
+
+.nav-items {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo-wrapper {
+padding: 17px 0 43px 17px;
+max-width: 105px;
+width: 100%;
+height: inherit;
+}
+
+.logo {
+  width: inherit;
+  height: inherit;
+}
+
+.list-wrapper {
+
+}
+
+.nav-button {
+
+}
