@@ -1,17 +1,17 @@
 .welcome-screen {
-padding-top: 130px;
+margin-top: 120px;
 text-align: center;
 font-family: var(--main-font), sans-serif;
 }
 
 .welcome-info {
-  display: flex;
-  flex-direction: column;
+  
   padding: 50px 0;
 }
 
 .welcome-app-name {
  color: var(--sub-text-color);
+ font-weight: 700;
 }
 .welcome-title {
 padding: 17px var(--gutter-size);
@@ -23,4 +23,31 @@ font-weight: 700;
 .welcome-app {
 color: var(--sub-text-color);
 font-size: 24px;
+font-weight: 500;
+}
+
+.btn-links,
+.welcome-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-links > .btn + .btn {
+  margin-top: 17px;
+}
+
+@media screen and (min-width:576px) {
+  .welcome-screen {
+    background-color: grey;
+    background-image: url(../images/Rectangle\ 48.jpg);
+    width: 100vw;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
 }

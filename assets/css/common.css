@@ -1,5 +1,20 @@
 .root { 
   --main-text-color:#252B42;
   --sub-text-color:#737373;
-  --main-font: 'monsterrat';
+  --main-font: "Monsterrat";
+}
+
+.btn {
+  padding: 16px 50px;
+  border: 1px solid orangered;
+  border-radius: 20px;
+  color: orangered;
+  text-transform: capitalize;
+  background-color: inherit;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  color: white;
+  background-color: orangered;
 }
