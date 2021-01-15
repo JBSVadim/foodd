@@ -58,6 +58,10 @@
     flex-direction: column;
     width: 100%;
   }
+
+  .information-content:nth-child(2n-1) {
+    flex-flow: column;
+  }
   .bold-text,
   .sub-color-title,
   .short-expression-text {
