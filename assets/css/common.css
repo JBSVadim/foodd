@@ -4,7 +4,7 @@
   --main-font: "Monsterrat";
 }
 
-.btn {
+.link {
   padding: 16px 50px;
   border: 1px solid orangered;
   border-radius: 20px;
@@ -14,7 +14,15 @@
   margin: 0 auto;
 }
 
-.btn:hover {
+.link:hover {
   color: white;
   background-color: orangered;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.lr-pad {
+  margin: 0 20px;
 }

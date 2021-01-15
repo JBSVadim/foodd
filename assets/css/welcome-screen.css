@@ -1,7 +1,6 @@
 
 .welcome-screen {
 margin-top: 120px;
-text-align: center;
 font-family: var(--main-font), sans-serif;
 }
 
@@ -66,14 +65,15 @@ font-weight: 500;
     flex-direction: row;
     justify-content: center;
     }
-    .btn {
+    .link {
       margin: initial;
     }
-  .btn-links > .btn + .btn {
+  .btn-links > .link + .link {
     margin-left: 30px;
   }
   .sub-wellcome-wrapper { 
     margin-top:  -190px;
+    border-bottom: 2px solid gray;
   }  
 }
 
