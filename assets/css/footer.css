@@ -1,0 +1,40 @@
+.flex-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.social-wrapper {
+  width: 41px;
+  height: 41px;
+}
+
+.social-wrapper + .social-wrapper {
+  padding-left: 5px;
+}
+
+.bottom-logo-wrapper {
+  display: none;
+}
+
+.social-links {
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width:768px) {
+  .bottom-logo-wrapper {
+    display: inline-block;
+    width: 205px;
+  }
+
+  .flex-footer {
+    flex-direction: row;
+  }
+  
+}
