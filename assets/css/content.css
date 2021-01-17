@@ -55,12 +55,12 @@
   }
 
   .information-content {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
   }
 
   .information-content:nth-child(2n-1) {
-    flex-flow: column;
+    flex-flow: column-reverse;
   }
   .bold-text,
   .sub-color-title,

@@ -1,0 +1,45 @@
+.download-links {
+  background-color: #252B42;
+  padding: 110px 0;
+  color: white;
+}
+
+.download-title {
+  font-size: 40px;
+  font-family: var(--main-font);
+  
+}
+
+.dl-links > .link:hover {
+  color: white;
+  background-color: orangered;
+  border: orangered;
+}
+
+
+.text-app-description {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.dl-links {
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  .dl-links > .link + .link {
+    margin-left: 30px;
+  }
+
+@media screen and (min-width:576px) {
+  .download-links {
+    background-color: #252B42;
+    background-image:url(../images/Rectangle\ 47.png);  
+    width: 100vw;
+    height: 70%;
+    background-position: center;
+    background-size: cover;
+    
+    padding: 140px 0px 110px 0px;
+}
+}

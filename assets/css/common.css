@@ -2,27 +2,28 @@
   --main-text-color:#252B42;
   --sub-text-color:#737373;
   --main-font: "Monsterrat";
+  box-sizing: border-box;
 }
 
 .link {
   padding: 16px 50px;
-  border: 1px solid orangered;
+  border: 1px solid white;
   border-radius: 20px;
-  color: orangered;
+  color: white;
   text-transform: capitalize;
   background-color: inherit;
   margin: 0 auto;
+  text-decoration: none;
 }
 
-.link:hover {
-  color: white;
-  background-color: orangered;
-}
 
 .align-center {
   text-align: center;
 }
 
-.lr-pad {
-  margin: 0 20px;
+
+
+.no-pad {
+  padding-left: 0;
+  padding-right: 0;
 }

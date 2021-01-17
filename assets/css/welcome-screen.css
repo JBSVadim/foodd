@@ -44,11 +44,27 @@ font-weight: 500;
   width: inherit;
 }
 
+.btn-links > .link:hover {
+  color: white;
+  background-color: orangered;
+  border: orangered;
+}
+
+
 @media screen and (max-width:575px) {
-  .btn-links > .btn + .btn {
+  .btn-links > .link + .link {
     margin-top: 17px;
+    
+}
+
+
+
+.btn-links > .link {
+  border: 1px solid orangered;
+  color: orangered;
 }
 }
+
 @media screen and (min-width:576px) {
   .welcome-screen {
     background-color: grey;
