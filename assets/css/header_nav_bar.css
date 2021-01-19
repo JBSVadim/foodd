@@ -6,6 +6,7 @@ right: 0;
 top: 0;
 z-index: 10;
 border-bottom:  1px solid black;
+box-sizing: border-box;
 }
 
 .nav-items {
@@ -22,7 +23,7 @@ height: inherit;
 }
 
 .list-wrapper {
-  padding-right: 3vw;
+  padding-right: 10px;
   max-width: 40px;
   width: 100%;
   }
@@ -42,6 +43,7 @@ height: inherit;
     padding-bottom: 50px;
     max-width: 140px;
   }
+  
 }
 
 @media screen and (min-width:1200px) {
