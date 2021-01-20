@@ -43,7 +43,7 @@
     padding: 140px 0px 110px 0px;
 }
 .dl-links {
-  flex-direction: row;
-  justify-content: column;
+  flex-direction: column;
+  justify-content: center;
   }
 }
