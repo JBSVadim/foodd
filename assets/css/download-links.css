@@ -42,8 +42,13 @@
     
     padding: 140px 0px 110px 0px;
 }
-.dl-links {
-  flex-direction: column;
-  justify-content: center;
-  }
+
+}
+
+@media screen and (max-width:575px) {
+  .dl-links {
+    flex-direction: column;
+    justify-content: center;
+    }
+
 }
